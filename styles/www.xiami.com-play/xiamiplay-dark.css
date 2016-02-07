@@ -1,0 +1,36 @@
+@keyframes beating {
+  0% {
+    background: rgba(0, 0, 0, 0.85)
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.65)
+  }
+}
+
+.menu-outer ul .current a, .menu-outer ul .current a:hover, .menu-outer ul li a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.menu-outer, .ui-track-main, .ui-track-current .ui-track-main {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.ui-playlist-header, .ui-playlist-footer {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu-outer ul li a, .ui-track-main, .ui-track-main a:link, .ui-track-main a:visited {
+  color: rgba(255, 255, 255, 0.75)
+}
+
+body, .ui-player-lrc ul li, .player-info .player-length .player-position, .player-info .player-length .player-duration, .ui-track-sort em, .ui-track-sort i {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ui-track-all .ui-all-item a {
+  -webkit-filter: invert(100%);
+}
+
+.ui-track-item:hover, .ui-track-hover, .ui-track-current:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}

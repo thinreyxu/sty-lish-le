@@ -1,0 +1,114 @@
+.WB_cardwrap[feedtype="ad"], #v6_pl_content_publishertop, #v6_pl_content_biztips, .WB_search_s, .WB_frame_bottom, .WB_feed .W_tips, .WB_footer, .WB_feed_repeat .WB_feed_publish, .WB_feed_repeat .repeat_list .between_line, .W_fold, .artwork_box .W_btn_alpha[title="赞"], .WB_feed_repeat .WB_handle li:not(:nth-last-child(3)), .WB_feed_repeat .WB_handle li:nth-child(1), .WB_expand .WB_handle li:not(:nth-child(2)), .WB_feed_handle>.WB_handle li:not(:nth-child(3)), .WB_feed_detail+.WB_feed_handle .WB_handle li:nth-child(3) span.arrow, .send_weibo .key, .v6_pl_rightmod_updatev6, #v6_pl_rightmod_recominfo, #v6_trustPagelet_recom_member, #v6_pl_rightmod_noticeboard, #v6_pl_rightmod_updatev6, .WB_right_module, .PCD_mplayer, #WB_webim, .WB_feed_together, .WB_main_r, .gn_nav_list a[nm="game"] {
+  display: none;
+}
+
+.WB_cardwrap {
+  border-radius: 2px;
+  margin: 0;
+  position: relative;
+}
+
+.WB_feed_repeat .repeat_list {
+  padding-left: 20px;
+}
+
+.WB_feed_repeat .WB_repeat {
+  border: 0;
+}
+
+.WB_feed_repeat .repeat_list .tab_feed_a {
+  border-top: none;
+}
+
+.WB_feed_handle .WB_row_line {
+  border-bottom: none;
+}
+
+.WB_feed_detail+.WB_feed_handle .WB_handle {
+  display: block;
+  position: absolute;
+  right: 20px;
+  margin-top: -27px;
+}
+
+.WB_feed_detail+.WB_feed_handle .WB_handle ul {
+  border: none;
+}
+
+.WB_feed_detail+.WB_feed_handle .WB_handle li:nth-child(3) {
+  width: auto;
+  height: auto;
+}
+
+.WB_feed_detail+.WB_feed_handle .WB_handle li:nth-child(3) span {
+  width: auto;
+  height: auto;
+  margin: 0;
+  border: 0;
+  line-height: auto;
+  font-weight: normal;
+}
+
+.WB_notes {
+  margin: 0;
+  padding: 3px 0;
+}
+
+.send_weibo {
+  border-radius: 0;
+  margin: 0;
+}
+
+.WB_frame #plc_main {
+  width: 600px;
+}
+
+.WB_frame {
+  width: 760px;
+}
+
+.WB_global_nav {
+  border-top: none;
+}
+
+.WB_feed .WB_cardwrap {
+  margin-bottom: 10px;
+  border-bottom: 0px solid;
+}
+
+.WB_feed_detail {
+  background: none !important;
+}
+
+.WB_frame {
+  background: transparent;
+}
+
+.WB_cardwrap {
+  box-shadow: 0 0 1px 0 rgba(33, 36, 49, 1);
+}
+
+.WB_feed_repeat .WB_repeat {
+  box-shadow: 0 -1px 0 0 rgba(43, 46, 57, 1);
+}
+
+.S_line1, .W_btn_prev, .W_btn_next, .W_btn_b, .WB_feed_repeat .repeat_list .list_li, .WB_feed_expand .W_arrow_bor i, .WB_feed .WB_cardwrap, .WB_left_nav .lev_Box, .WB_left_nav fieldset, .WB_global_nav .S_line1, .WB_global_nav .gn_search .W_input {
+  border-color: rgba(50, 53, 66, 1);
+}
+
+.WB_global_nav, .S_bg2, blockquote, .W_btn_b, .W_input, .SW_fun_bg, .WB_expand, .WB_expand_media, .WB_feed_repeat, .S_bg1, .SW_fun_bg:hover, .SW_fun_bg_active, .S_line1, .W_btn_prev, .W_btn_next, .W_btn_b {
+  background: rgba(50, 53, 66, 1) !important;
+}
+
+.S_page, .S_page .WB_miniblog, .B_index, .B_index .WB_miniblog, html, body, body .WB_miniblog, .WB_global_nav .gn_search .W_input {
+  background: rgba(43, 46, 57, 1);
+  color: #78808E;
+}
+
+.WB_left_nav .S_txt1, .WB_left_nav a.S_txt1:hover, .WB_left_nav .S_ficon, .WB_left_nav a:hover .S_ficon, .WB_left_nav a.S_ficon:hover, .WB_left_nav .lev .W_new_count, body, legend, .W_input:focus, .S_txt1, .W_btn_b, .SW_fun .S_func1, .S_txt2, .W_input, .W_btn_b_disable, .W_btn_b_disable:hover, .WB_global_nav .S_txt1, .WB_global_nav .SW_fun .S_func1, .WB_global_nav .gn_search .W_input {
+  color: #78808E;
+}
+
+img {
+  opacity: 0.75;
+}

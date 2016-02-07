@@ -1,0 +1,35 @@
+body {
+  color: #484848;
+}
+
+.all_news_wildlist .hd {
+  color: #888888;
+}
+
+.all_news_wildlist .tj span {
+  color: #a8a8a8;
+}
+
+.all_news_wildlist .newsinfo a:link {
+  color: #036;
+}
+
+.all_news_wildlist .newsinfo a:hover {
+  color: #39c;
+}
+
+.all_news_wildlist .newsinfo strong {
+  color: #484848;
+}
+
+.all_news_wildlist .newsinfo a strong {
+  color: #036;
+}
+
+.article .body .introduction {
+  color: #484848;
+}
+
+.article .body .introduction p strong {
+  color: #000000;
+}
