@@ -1,0 +1,59 @@
+@keyframes beating-blur {
+  0% {
+    transform: scale3d(1.5, 1.5, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+html {
+  font-size: 13px;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Helvetica Neue", "FZLanTingHei-L-GBK", sans-serif;
+}
+
+.ui-album-sale, .collect-none, .ui-track-current .ui-roam-wrap, .ui-player-lrc .no-lrc {
+  display: none !important;
+}
+
+#top, #bottom, #middle {
+  /*background: rgba(0, 0, 0, 0.85);*/
+  animation-name: beating;
+}
+
+#J_blurBackground {
+  animation-name: beating-blur;
+}
+
+#top, #bottom, #middle, #J_blurBackground {
+  animation-duration: 6s, 8s;
+  -webkit-animation-fill-mode: both;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+.ui-playlist-body, .ui-history-body, .ui-myfav-body, .ui-collect-body, .ui-track-item, .seiya-enter .main-nav .tip-login, .seiya-enter .main-nav .list-button {
+  background: none;
+}
+
+.ks-webkit #player-main input[type=checkbox], .player-volume #J_playerHQ, .ui-track-all .ui-all-item a {
+  opacity: 0.5;
+}
+
+.player-info .player-length .player-position, .player-info .player-length .player-duration {
+  opacity: 1;
+}
+
+.ui-track-item:last-child .ui-track-main {
+  border: none;
+}
+
+.ui-track-current .ui-track-main {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
