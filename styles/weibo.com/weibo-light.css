@@ -25,9 +25,12 @@
   border: 0;
   box-shadow: 0 -1px 0 0 #eeeeee;
   padding: 0;
+<<<<<<< HEAD
+=======
 }
 .WB_feed_repeat .repeat_list .list_box {
   margin: 0;
+>>>>>>> release/weibo2016
 }
 .WB_feed_repeat .repeat_list .list_li {
   border-color: #f6f8f7;
@@ -48,6 +51,14 @@
 .WB_feed_repeat .WB_face img {
   border-radius: 50%;
 }
+<<<<<<< HEAD
+.WB_cardwrap .WB_expand, .WB_cardwrap .WB_expand_media {
+  background: #FCFDFC;
+  border: solid 1px #F9FBFA;
+  border-width: 1px 0;
+  margin: 5px -20px 0 -80px;
+  padding: 5px 20px 5px 80px;
+=======
 .WB_cardwrap .WB_media_wrap,
 .WB_cardwrap .WB_expand_media,
 .WB_cardwrap .WB_expand {
@@ -101,6 +112,7 @@
 .B_page .WB_feed_profile .WB_feed_repeat .repeat_list .WB_cardpage {
   border-color: #eeeeee;
   margin: 0 -20px;;
+>>>>>>> release/weibo2016
 }
 
 .WB_expand .WB_handle li:not(:nth-child(2)) {
@@ -134,12 +146,21 @@
   position: absolute;
   right: 20px;
   margin-top: -25px;
+<<<<<<< HEAD
 }
 
 .WB_feed_detail+.WB_feed_handle .WB_row_line .line span em:last-child {
   margin-right: 0;
 }
 
+=======
+}
+
+.WB_feed_detail+.WB_feed_handle .WB_row_line .line span em:last-child {
+  margin-right: 0;
+}
+
+>>>>>>> release/weibo2016
 
 .WB_feed_detail+.WB_feed_handle .WB_handle ul {
   border: none;
